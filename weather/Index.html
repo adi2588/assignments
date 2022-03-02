@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav-bar">
+    <h1>DOJOWEATHER</h1>
+            <p onclick="city(this)">Burbank</p>
+            <p onclick="city(this)">Chicago</p>
+            <p onclick="city(this)">Dallas</p>
+    </div>
+
+    <div class="box">
+        <div class="info">
+        <h2>San Jose</h2>
+            <div class="temp">
+                <p>Select Temp in </p>
+                <select name="" id="tempmode" onchange="change(document.getElementById('tempmode').value)">
+                    <option value="1">F</option>
+                    <option value="2">C</option>
+            </select>
+            </div>
+        </div>
+        <div class="day">
+            <div class="today">
+            <h4>Today</h4>
+            <img src="./assets/some_rain.png" alt="">
+            <p>Some Rain</p>
+            <div class="weather-info"> 
+                <p id="tempvalue">75</p>
+                <p id="tempvalue1">65</p>
+            </div>
+            </div>
+            <div class="tomorrow">
+                <h4>Tomorrow</h4>
+                <img src="./assets/some_sun.png" alt="">
+                <p>Some Sun</p>
+                <div class="weather-info">
+                    <p id="tempvalue">80</p>
+                <p id="tempvalue1">66</p>
+                </div>
+            </div>
+            <div class="Friday">
+            <h4>Friday</h4>
+            <img src="./assets/some_clouds.png" alt="">
+            <p>Some Cloud</p>
+            <div class="weather-info">
+                <p id="tempvalue">69</p>
+                <p id="tempvalue1">61</p>
+            </div>
+            </div>
+            <div class="Saturday">
+            <h4>Saturday</h4>
+            <img src="./assets/some_sun.png" alt="">
+            <p>Some Sun</p>
+            <div class="weather-info">
+                <p id="tempvalue">78</p>
+                <p id="tempvalue1">71</p>
+            </div>
+            </div>
+            </div>
+
+    <footer class="footer">
+        <div class="cookie">
+            <img src="./assets/cookie.png" alt="">
+            <p>
+                Stop! Cookie Time
+            <br>
+            We use cookie (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <a href="">Read More...</a></p>
+            <button onclick="accept('.footer')">I Accept</button>
+        </div>
+
+    </footer>
+
+
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>

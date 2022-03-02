@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    height: auto;
+    width: auto;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.nav-bar{
+    height: 100px;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 40px;
+}
+
+.btn{
+    background-color: lightskyblue;
+    width: 90px;
+    height: 30px;
+    stroke-width: 5px;
+    box-shadow: 2px 2px;
+    cursor: pointer;
+}
+
+.word1, .word2{
+    height: 200px;
+    width: 500px;
+    border: black solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+
+}
+.dic{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* need to ask question on this */
+}
+
+.add-word{
+    height: 250px;
+    width: 200px;
+    border: black solid;
+    padding: 30px;
+    font-size: 30px;
+    background: linear-gradient(to bottom, lightgrey 0%, lightgrey 55%, white 70%, white 100%);
+    
+}
+
+.boxes{
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    width: 900px;
+  
+
+}
+.word{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+

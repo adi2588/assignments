@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="nav-bar">
+            <h1><strong>Dojonory</strong></h1>
+            <input type="text" placeholder="Search" size="40px">
+            <button class="btn" value="Login" onclick="change()">Login</button>
+
+        </div>
+        <div class="boxes">
+        <div class="dic">
+            <div class="word1">
+                <div>
+                <p class="word">Ninja</p>
+                <p>noun</p>
+                <p>Plural: ninjas</p>
+                <button class="like1" onclick="likes('l1')"> <span class="l1"> 1 </span> likes </button>
+                </div>
+                <div>
+                    <p>A practioner Skilled in the <a href="">Japenese</a> art of <a href="">ninjentsu</a></p>
+                </div>
+
+            </div>
+            <div class="word2">
+                <div>
+                    <p class="word">Ninja</p>
+                    <p>noun</p>
+                    <p>Plural: ninjas</p>
+                    <button class="like1" onclick="alert('Ninja was liked')"> 1 likes </button>
+                    </div>
+                    <div>
+                        <p>A practioner Skilled in the <a href="">Japenese</a> art of <a href="">ninjentsu</a></p>
+                    </div>
+            </div>
+        </div>
+        <div class="add-word">
+            <p>Dojonory is defined by you</p>
+            <center>
+            <button class = "buttn" onclick="remove()">Add Defination</button>
+            </center>
+
+        </div>
+    </div>
+
+
+
+
+    </div>
+</body>
+
+<script src="./javascript.js"></script>
+
+</html>

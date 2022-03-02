@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+}
+.nav-bar{
+    height: 70px;
+    background: black;
+    border-top: blueviolet solid 5px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Dojo{
+    color: rgba(211, 74, 211, 0.671);
+}
+
+.nav-options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+.nav-options1{
+    display: flex;
+    align-items: center;
+}
+
+
+.search, .cart{
+    height: 35px;
+}
+.h2{
+    margin-left: 250px;
+    margin-top: 15px;
+}
+.mid-bar{
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    margin-left: 150px;
+    margin-right: 150px;
+    
+}
+.box1{
+    background: white;
+    height: 240px;
+
+}
+
+.neko{
+    height: 150px;
+    width: 290px;
+}
+
+.platform{
+    height: 20px;
+    width: 20px;
+    background: white;
+}
+.price{
+    align-items: flex-start;
+    display: flex;
+    justify-self: start;
+    justify-content: space-between;
+}
+.disc{
+    background: rgb(131, 86, 131);
+    color: black;
+}
+.button{
+    background: green;
+    box-shadow: black 10px;
+}
+.old{
+    text-decoration-line: line-through;
+    color: rgba(22, 22, 22, 0.295);
+    font-size: 15px;
+}
+
+.button, .disc{
+    width: 60px;
+    height: 30px;
+}

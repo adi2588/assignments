@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.box{
+    height: 400px;
+    width: 800px;
+    border: black;
+    border-style: solid;
+    margin-left: 350px;
+    margin-top: 100px;
+    padding-left: 60px;
+    padding-top: 90px;
+    background: linear-gradient(to bottom, blue 0%, blue 30%, white 30%, white 100% );
+
+}
+.name{
+    font-size: 35px;
+}
+
+.info{
+    height: 100px;
+    width: 100px;
+}
+
+.img{
+    height: 30px;
+    width: 30px;
+}
+

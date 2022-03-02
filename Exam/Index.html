@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gamig Dojo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav-bar">
+        <h1>Gaming<span class="Dojo">DOJO</span></h1>
+        <div class="nav-options">
+            <select name="money" id="options">
+                <option value="">Euro &#163</option>
+                <option value="">USD &#36;</option>
+            </select>
+            <div class="nav-options1">
+            <img src="./images/cart-light.png" alt="cart" class="cart"> 
+            <p class="cart-count">0</p>
+            </div>
+            <img src="./images/search-light.png" alt="search" class="search">
+        </div>
+    </div>
+    <div>
+            <h2 class="h2">Hightlights</h2>
+    </div>
+    <div class="mid-bar">
+        <img src="./images/chevron-left.png" alt="" onclick="change()"  >
+        <img src="./images/stonepunk.png" alt="stonepunk" class="stone">
+        <img src="./images/chevron-right.png" alt="" onclick="change()" >
+    </div>
+    <div>
+        <div class="main-box">
+            <div class="box1">
+                <img src="./images/cafe-neko.png" alt="" class="neko">
+                <p>Cafe Neko: Gold Edition</p>
+                <img src="./images/windows.png" alt="" class="platform">
+                <img src="./images/apple.png" alt="" class="platform">
+                <div class="price"> 
+                    <button disabled="disabled" class="disc">-20%</button>
+                    <div>
+                    <p class="old">&#163 14.98</p>
+                    <p>&#163 10.49</p>
+                    </div>
+                    <button class="button" onclick="buy()">Buy</button>
+                </div>
+            
+            </div>
+            <div class="box1">
+                <img src="./images/pixel-ninjas-2.png" alt="" class="neko">
+                <p>Pixel Ninjas 2</p>
+            <div>
+                <img src="./images/windows.png" alt="" class="platform">
+                <img src="./images/apple.png" alt="" class="platform">
+            </div>
+            <div>
+                <div class="price">
+                    <button disabled="disabled" class="disc">-10%</button>
+                    <div>
+                        <p class="old">&#163 8.19</p>
+                        <p>&#163 7.39</p>
+                    </div>
+                    <button class="button"  onclick="buy()">Buy</button>
+                </div>
+            </div>
+            </div>
+            <div class="box1">
+                <img src="./images/stonepunk.png" alt="" class="neko">
+            <div>
+                <p>Stonepunk 10000 BCE</p>
+            </div>
+            <div>
+                <img src="./images/windows.png" alt="" class="platform">
+                <img src="./images/apple.png" alt="" class="platform">
+                <img src="./images/linux.png" alt="" class="platform" onclick="update()" >
+            </div>
+            <div>
+                <div class="price">
+                    <button disabled="disabled" class="disc">NEW</button>
+                    <p>19.99</p>
+                    <button  class="button" onclick="buy()">Buy</button>
+                </div>
+            </div>
+            </div>
+
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

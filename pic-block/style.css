@@ -1,0 +1,47 @@
+#grey, div{
+    background-color: grey;
+    margin: 8px;
+}
+
+.main{
+    text-align: center;
+    font-size: 70px;
+    border-top: solid;
+    border-top-width: 5px;
+    margin: -8px;
+
+}
+.blue{
+    height: 200px;
+    width: 1400px;
+    background-color: blue;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.pink{
+    height: 200px;
+    width: 1400px;
+    background-color: pink;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.white{
+    height: 200px;
+    width: 1400px;
+    background-color: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.pic{
+    height: 180px;
+}
+footer{
+    text-align: center;
+}
